@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - entry
  *
- * Description: the number is positive or negative
+ * Description: 'dgood program this'
  *
- * Return : 0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)
