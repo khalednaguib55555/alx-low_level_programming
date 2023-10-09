@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - entry
  *
@@ -10,22 +9,15 @@
 
 int main(void)
 {
-	char ch = 'a';
-	char cg = 'A';
+	int num = 48;
 
-	while (ch <= 'z')
+	while (num <= 102)
 	{
-		putchar (ch);
-		ch++;
-	}
-	while (cg <= 'Z')
-	{
-		putchar (cg);
-		cg++;
+		putchar(num);
+		if (num == 57)
+			num += 39;
+		num++;
 	}
 	putchar ('\n');
 	return (0);
 }
-		
-		
-
