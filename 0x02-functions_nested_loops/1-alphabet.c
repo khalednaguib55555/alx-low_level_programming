@@ -1,15 +1,13 @@
-#include"main.h"
+#include"main"
 /**
- * main - entry
- *
- * Description: 'good program this'
- *
- * Return: 0 (success)
-*/
+ * print_alphabet - print all alphabet in lowercase
+ */
+
 
 void print_alphabet(void)
 {
 	int ch = 'a';
+
 	while (ch <= 'z')
 	{
 		_putchar(ch);
