@@ -2,7 +2,9 @@
 /**
  * mul - check for letter
  *
- * @c: is the character
+ * @a: is the character
+ *
+ * @b: hamo
  *
  * Return: 1 if c is uper, 0 if not
 */
@@ -10,5 +12,6 @@
 int mul(int a, int b)
 {
 	int result = a * b;
+
 	return (result);
 }
